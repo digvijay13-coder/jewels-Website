@@ -1,12 +1,15 @@
-.navbar{
-   text-transform: uppercase;
-}
-
-.nav-logo{
-    border-radius: 50%;
-    width: 3rem;
-    aspect-ratio: 1;
-}
-
-
+.nav-container{
+    align-items: center;
     
+
+
+    & .nav-img{
+        height: 3rem;
+        border-radius: 50%;
+    }
+
+    & .nav-item{
+        font-size: 1.5rem;
+        
+    }
+}
