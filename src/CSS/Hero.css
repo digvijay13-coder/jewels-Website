@@ -1,0 +1,69 @@
+.hero{
+    height: 92vh;
+ background-color: var(--bg-color);
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+
+& .container .col{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    & .btn{
+        margin: 0%  auto;
+        width: 8rem;
+        padding: .6rem;
+        background-color: var(--main-color);
+        color: #FFFFFF;
+    }
+
+    
+
+   & .hero-heading{
+    font-size: 5rem;
+    font-weight: 900;
+   }
+
+    & .Hero-img {
+  width: 40rem;
+  height: auto;
+  border-radius: 50%;
+    
+}
+}
+}
+
+.custom-shape-divider-bottom-1765278132 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1765278306 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+/* wave CSs */
+.custom-shape-divider-bottom-1765278306 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1765278306 .shape-fill {
+    fill: #FFFFFF;
+}

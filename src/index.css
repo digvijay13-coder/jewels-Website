@@ -1,0 +1,60 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+ 
+}
+
+html {
+  font-size: 62.5%;
+ 
+  /* 1rem = 10px  */
+  /* scroll-behavior: smooth; */
+  /* scroll-snap-type: Y proximity; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Eagle Lake", serif;
+   color: var(--main-color);
+
+}
+
+p,
+li,
+a,
+label {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: var(--para-color);
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* theme */
+
+:root {
+    --text-color:#0b0b12;
+    --bg-color:#fed5fa;
+    --main-color:#3c3ece;
+    --logo-bg:#04aa9f;
+    --secondary-color:#eb92fb;
+}
