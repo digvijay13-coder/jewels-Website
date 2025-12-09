@@ -13,9 +13,8 @@ export default function Hero()
     <div class="col-12 col-md-6 hero-content">
       <h1 className='hero-heading'>Jewels By Bhargavi</h1>
       <p className='hero-subheading'>
-       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, nesciunt deleniti, veritatis tempore excepturi, minima autem nulla eum necessitatibus vel est quia dignissimos repellendus error ab quisquam animi corrupti dolore!
+       Adorn yourself with our exquisite handmade pieces, crafted with love and precision. Each piece is a one-of-a-kind masterpiece, designed to make you shine. 💎
       </p>
-      <button type="button" class="btn">Read More</button>
     </div>
 
     {/* RIGHT COLUMN */}

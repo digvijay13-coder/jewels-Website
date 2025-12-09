@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    margin-top: 1rem;
+    position: relative;
+
+    & .content{
+        padding: .4rem;
+
+        & .footer-link{
+            
+           color: var(--logo-bg);
+            padding: 1rem;
+            font-size: 3rem;
+            border-radius: 50%;
+        }
+    }
+
+
+}

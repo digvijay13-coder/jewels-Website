@@ -1,0 +1,14 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    padding: 2rem;
+}
+
+video{
+    border-radius: 5rem;
+    width: 80rem;
+    height: auto;
+}
